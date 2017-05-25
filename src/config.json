@@ -1,0 +1,24 @@
+{
+  "site": {
+    "url": {
+      "base": "https://www.toh82.de/",
+      "static": "https://static.toh82.de/"
+    },
+    "google_analytics": {
+      "active": false,
+      "id": ""
+    },
+    "header": {
+      "title_prefix": "kunstliebe",
+      "keywords": "design, graphics, poster, doodle, sketching, zeichnen"
+    }
+  },
+  "blog": {
+    "post": {
+      "baseFolder": "./src/",
+      "folder": "posts/"
+    }
+  },
+  "author": "Tobias Hartmann",
+  "twitter": "@ToH_82"
+}
