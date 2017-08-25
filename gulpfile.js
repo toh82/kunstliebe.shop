@@ -40,13 +40,12 @@ gulp.task('css', function () {
   var sass = require('gulp-sass')
 
   var cssSrc = [
-    './src/css/base.css'
+    './src/scss/**/*.scss'
   ]
 
   return gulp.src(cssSrc)
     .pipe(sourcemaps.init())
-    .pipe(sass())
-    .pipe(cssnano())
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('web/assets/css'))
 })
